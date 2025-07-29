@@ -4,10 +4,10 @@ export default function Footer() {
   return (
     <div className="">
       <div
-        className="flex flex-row justify-between px-80 py-5"
+        className="flex flex-col md:flex-row justify-center md:justify-between px-5 md:px-80 py-5"
         style={{ backgroundColor: "#EAC8A6" }}
       >
-        <div className="">
+        <div className="text-center md:text-left">
           <h1 className="text-gray-800 font-semibold">
             METEOROGICAL INSTITUTE
           </h1>
