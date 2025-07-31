@@ -36,7 +36,7 @@ export default function Navbar() {
             </h1>
           </div>
           {/* tampilan desktop */}
-          <div className="bg-white/20 py-4 px-6 rounded-4xl hidden md:block">
+          {/* <div className="bg-white/20 py-4 px-6 rounded-4xl hidden md:block">
             <div className="bg-white rounded-2xl px-10 py-1">
               <div className="flex flex-row gap-3 items-center">
                 <FiMapPin className="text-black" />
@@ -45,7 +45,7 @@ export default function Navbar() {
                 </h2>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="hidden md:flex space-x-6">
             <motion.div
               className="bg-white py-1 px-4 rounded-2xl "
