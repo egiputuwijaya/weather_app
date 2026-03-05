@@ -32,20 +32,10 @@ export default function Navbar() {
         <div className="flex flex-row items-center justify-between px-8 py-4">
           <div className="">
             <h1 className="text-lg font-semibold bg-white text-black py-1 px-5 md:rounded-4xl">
-              METEOROGICAL INSTITUTE
+              METEOROGICAL INSTITUTE OF BENGKULU
             </h1>
           </div>
-          {/* tampilan desktop */}
-          {/* <div className="bg-white/20 py-4 px-6 rounded-4xl hidden md:block">
-            <div className="bg-white rounded-2xl px-10 py-1">
-              <div className="flex flex-row gap-3 items-center">
-                <FiMapPin className="text-black" />
-                <h2 className="text-lg hidden md:block rounded-2xl text-black">
-                  Bengkulu, Indonesia
-                </h2>
-              </div>
-            </div>
-          </div> */}
+         
           <div className="hidden md:flex space-x-6">
             <motion.div
               className="bg-white py-1 px-4 rounded-2xl "
@@ -77,7 +67,11 @@ export default function Navbar() {
             className="text-black text-3xl md:hidden"
             onClick={() => setIsOpen(!isOpen)}
           >
-            {isOpen ? <FaTimes /> : <FaBars />}
+            {isOpen ? (
+              <FaTimes className="text-xl" />
+            ) : (
+              <FaBars className="text-xl" />
+            )}
           </button>
         </div>
         {isOpen && (

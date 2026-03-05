@@ -9,7 +9,7 @@ export default function Footer() {
       >
         <div className="text-center md:text-left">
           <h1 className="text-gray-800 font-semibold">
-            METEOROGICAL INSTITUTE
+            METEOROGICAL INSTITUTE OF BENGKULU
           </h1>
           <p className="text-gray-700 ">Forecast built for your life.</p>
           <hr className="border-gray-500" />
